@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4-CSS'de Kalıtım-CSS'de Öncelik Dersi
+    </title>
+    <style>
+        p{
+            color: tomato;
+        }
+        .futbol{
+            color: red;
+        }
+
+        .basketbol{
+            color: blue;
+        }
+
+        .voleybol{
+            color: green;
+        }
+
+        #bjk{
+            color: violet;
+        }
+    </style>
+</head>
+<body>
+    <h1>Takımlar</h1>
+    <p class="futbol">Trabzonspor</p> 
+    <p id="bjk" class="futbol">Beşiktaş</p>
+    <p class="basketbol">Anadolu Efes</p>
+    <p class="basketbol">Karşıyaka</p>
+    <p class="voleybol">Eczacıbaşı</p>
+    <p class="voleybol">Vakıfbank Sigorta</p>
+    <p>Şampiyon </p>
+    
+    <!-- id > class > tag -->
+
+    <!-- !important -->
+
+    <!-- id = Selector Specificity: (1, 0, 0)
+    class = Selector Specificity: (0, 1, 0)
+    tag = Selector Specificity: (0, 0, 1) -->
+   
+</body>
+</html>
