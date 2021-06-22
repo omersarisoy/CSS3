@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formlar</title>
+</head>
+<body>
+    
+    <form action="result.html" method="GET">
+        <div>
+            <label for="isim">adı:</label>
+            <input id="isim" type="text" name="isim" placeholder="adınızı giriniz"> <br>
+            <label for="sname">soyadı:</label>
+            <input id="sname" type="text" name="soyisim" placeholder="soyadınızı giriniz"> <br>
+            <label for="şifre">parola:</label>
+            <input id="şifre" type="password" name="parola"s><br>
+        </div>
+                
+        <div>
+
+            <label for=""> Cinsiyet</label>
+            <input id="gender1"  type="radio" name="gender" value="Erkek" >
+            <label for="gender1">Erkek</label>
+            <input id="gender2" type="radio" name="gender" value="Kadın">
+            <label for="gender2">Kadın</label>
+        </div>
+
+        <div>
+            <label for="age">Yaş</label>
+            <input type="number" name="yaş" id="age" step="5" min="18" max="55">
+        </div>
+
+        <div>
+            <label for="search">ara:</label>
+            <input type="search" name="arandı" id="search" placeholder="ara...">
+        </div>
+
+        <div>
+            <label for="renk"> Renk seçiniz:</label>
+            <input type="color" name="seçilen renk:" id="renk">
+        </div>
+
+        <div>
+            <label for="tarih"> Bir tarih seçiniz:</label>
+            <input type="date" name="seçilen tarih" id="tarih" min="2020-05-20" max="2022-05-20">
+
+        </div>
+
+        <div>
+            <label for="mail">Mail</label>
+            <input type="email" name="Kullanıcı maili" id="mail">
+        </div>
+
+        <div>
+            <label for="dosya">Dosya Seç:</label>
+            <input type="file" name="Kullanıcının Dosyası" id="dosya"> 
+        </div>
+
+        <div>
+            <label for="telno">Telefon no</label>
+            <input type="tel" name="Telefon numarası" id="telno" pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}">
+        </div>
+
+
+
+        <br><br><br><br>
+        <input type="reset">
+        <input type="submit" >
+    </form>
+</body>
+</html>

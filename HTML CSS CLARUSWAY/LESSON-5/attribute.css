@@ -1,0 +1,134 @@
+/* h2[title="başlık1"] {
+    color: red;
+
+}
+
+p[title="paragraf1"] {
+     
+    color: green;
+}
+
+a[target="blank"] {
+
+    color: lawngreen;
+    text-decoration: none;
+}
+
+p::first-line{
+    font-size: 25px;
+}
+
+p::first-letter{
+    font-size: 50px;
+}
+
+ul li{
+    padding: 5px;
+    background-color: coral;
+    margin: 2px;
+    width: 300px;
+    border-radius: 20px;
+    list-style-type: "😍";
+    text-align: center;
+    color: white;
+}
+
+ul li:first-child{
+    background-color: chartreuse;
+}
+ul li:last-child{
+    background-color: blue;
+}
+
+ul li::before{
+    content: "\2764";
+    color: red;
+} */
+
+
+/* ders tekrarı  */
+
+h2[title="başlık1"]{
+    color: red;
+    font-weight: 200;
+}
+
+p[title="paragraf1"]{
+    color: green;
+}
+
+a[target="blank"]{
+    color: lawngreen;
+    text-decoration: none;
+}
+
+p[title="paragraf2"]{
+    color:chartreuse ;
+}
+
+p::first-line{
+    font-size: 25px;
+}
+
+p[title="paragraf2"]::first-letter{
+    font-size: 80px;
+    color: darkgoldenrod;
+}
+
+ul li{
+    padding: 5px;
+    background-color: coral ;
+    margin: 2px;
+    width: 300px;
+    border-radius: 20px;
+    list-style-type: "😍";
+    text-align: center;
+    color: white;
+}
+
+ul li:first-child{
+    background-color: blue;
+}
+
+ul li:nth-child(2){
+    background-color: green;
+}
+
+ul li:last-child{
+    background-color: purple;
+    
+}
+
+ul li::before{
+    content: "\2764" ;
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

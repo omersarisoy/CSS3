@@ -1,0 +1,45 @@
+.div1{
+    border: 2px solid blue;
+}
+
+#par-1{
+    border-style: dotted;
+    border-width: 2px;
+    border-color: tomato;
+}
+#par-2{
+    border-style: groove;
+    border-width: 4px 8px;
+    border-color: tomato;
+}
+#par-3{
+    border-style: double;
+    border-width: 4px 8px;
+    border-color: rgb(71, 255, 80);
+}
+#par-4{
+    border-style: inset;
+    border-width: 4px 8px;
+    border-color: rgb(255, 71, 141);
+}
+
+#a{
+    border: 1px solid black;
+    background-color:  aqua;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-left: 40px;
+    padding-bottom: 30px;
+}
+
+#aa{
+    border: 1px solid tomato;
+    padding: 25px;
+    width: 300px;
+    box-sizing: border-box;
+    color: red;
+}
+
+.tg-1{
+    
+}

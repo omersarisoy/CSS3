@@ -1,0 +1,31 @@
+#par1 {
+    color: rgba(0, 255, 10, 0.8);
+    text-align: center;
+    text-transform: uppercase; /*hepsini büyüttü*/
+} 
+#par2 {
+    color: blue;
+    text-align: right;
+    text-transform: lowercase; /*hepsini küçülttü*/
+}
+#par3 {
+    color: red;
+    text-align: justify; /*metni iki yana yaslama*/
+    text-transform: capitalize; /*baş harflerini büyüttü*/
+    font-family: 'Parisienne', cursive;
+    direction: rtl;
+    text-shadow: 2px 5px 5px red;
+}
+
+#par4{    
+    color: hsla(120, 80%, 50%, 0.9);
+    text-decoration: underline;
+    letter-spacing: 5px; /*harflerin arasındaki boşlukları açtı*/
+}
+
+
+#par5 {
+    color: green;
+    text-decoration: overline wavy red; /*overline ile çizgi, wavy ile dalga, red ile renk verdik*/
+    word-spacing: 15px; /*kelimelerin arasındaki boşlukları açtı*/
+}

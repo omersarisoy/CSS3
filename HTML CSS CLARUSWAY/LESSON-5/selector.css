@@ -1,0 +1,25 @@
+/* p{
+    color: red;
+} */
+
+/* div p{
+    color: red;
+} */
+/* 
+.container div p {
+    color: blue;
+} */
+/* 
+p + div {
+    color: purple;
+} */
+
+/* div + p{
+
+    color: tomato;
+} */
+
+div + p + p{
+
+    color: violet;
+}

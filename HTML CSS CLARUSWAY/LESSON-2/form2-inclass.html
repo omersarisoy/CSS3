@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form2</title>
+    <style>
+        #şeker{
+            border: 2px solid blue;
+            width: 200px;
+            height: 100px;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <form action="result.html">
+            <label for="şeker">Hangi tatlıyı seversiniz</label>
+            <br>
+            <select name="tatlı" id="şeker" multiple size="3" required>
+                <option value="Sütlaç">Sütlaç</option>
+                <option value="Keşkül">Keşkül</option>
+                <option  value="Puding">Puding</option>
+                <option value="Tramisu">Tramisu</option>
+                <option value="Samsa">Samsa</option>
+                <option value="Magnolia">Magnolia</option>
+                <option value="Kadayıf">Kadayıf</option>
+            </select>
+        
+            <br><br><br><br>
+                <input type="reset">
+                <input type="submit" >
+        </form>
+    </div>
+    <div>
+        <form action="result.html">
+            <label for="şeker">Hangi tatlıyı seversiniz</label>
+            <br>
+            <select name="tatlı" id="şeker" multiple size="3" required>
+                <optgroup label="Sütlü tatlılar">
+                    <option value="Sütlaç">Sütlaç</option>
+                    <option value="Keşkül">Keşkül</option>
+                    <option  value="Puding">Puding</option>
+                </optgroup>
+                
+                <optgroup label="şerbetli tatlılar">
+                    <option value="Tramisu">Tramisu</option>
+                    <option value="Samsa">Samsa</option>
+                    <option value="Magnolia">Magnolia</option>
+                    <option value="Kadayıf">Kadayıf</option>
+
+                </optgroup>
+                
+            </select>
+        
+            <br><br><br><br>
+                <input type="reset">
+                <input type="submit" >
+        </form>
+    </div>
+
+    <hr>
+
+    <div>
+        <textarea name="yorum" id="ta1" cols="50" rows="10" placeholder="Buraya youmunuzu yazabilirsiniz."></textarea>
+    </div>
+
+    <div>
+        <label for="input-browser">Browsers</label>
+        <input type="text" name="Kullanılan Browser" id="input-browser" list="browser">
+        <datalist id="browser">
+            <option value="Firefox"></option>
+            <option value="Google Chrome"></option>
+            <option value="Opera"></option>
+            <option value="Internet Explorer"></option>
+            <option value="Safari"></option>
+        </datalist>
+
+
+
+    </div>
+
+
+    <div>
+        <fieldset>
+            <legend>Kişisel Bilgiler</legend>
+            <label for="fname">isim:</label> <br>
+            <input type="text" name="isim" id="fname" value="Ömer"> <br>
+            <label for="lname">soyisim:</label> <br>
+            <input type="text" name="soyisim" id="lname" placeholder="soyadınızı giriniz.">
+
+        </fieldset>
+
+
+    </div>
+    <br><br><br>
+    <input type="submit" >
+</body>
+</html>
