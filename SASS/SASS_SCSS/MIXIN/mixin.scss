@@ -1,0 +1,43 @@
+div{
+    float:left
+}
+
+@mixin container ($color, $uzunluk) {
+    width: 100px;
+    height: $uzunluk;
+    background-color: $color;
+    margin: 15px;
+}
+
+.ömer{
+    width: 100px;
+    height: 100px;
+    background-color: lawngreen;
+    margin: 15px;
+    border-radius: 20px*2
+}
+
+
+#first {
+   @include container(blue, 100px);
+}
+#second {
+    @include container(red, 200px);
+    
+}
+#third {
+    @include container(green, 300px);
+
+}
+
+
+#a1{
+    @extend.ömer;
+}
+#b2{
+    @extend.ömer;
+}
+
+#c3{
+    @extend.ömer;
+}

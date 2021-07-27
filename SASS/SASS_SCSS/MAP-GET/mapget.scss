@@ -1,0 +1,20 @@
+$tema : (
+    "açık" : #fff,
+    "koyu" : #000,
+    "gri" : #aaa,
+);
+
+body{
+    background-color: map-get($tema, "açık" );
+}
+
+$kalınlık : (
+    "i" : 300,
+    "o" : 400,
+    "k" : 500,
+);
+
+h1{
+    color: map-get($tema , "koyu" );
+    font-weight: map-get($kalınlık , "k" );
+}

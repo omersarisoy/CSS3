@@ -1,0 +1,78 @@
+ @mixin stil($takım) {
+     @if ($takım=="ts") {
+        background-color: crimson;
+     }
+
+     @else if ($takım=="gs") {
+        background-color: yellow;
+     }
+     @else if ($takım=="bjk") {
+        background-color:black;
+     }
+
+     @else{
+        background-color:green;
+     }
+    
+}
+
+.kutu{
+    float: left;
+    padding: 10px 15px;
+    @include stil(sdasd)
+}
+
+
+// each döngüleri
+
+$boyutlar : 1,2,3,4,5,6;
+
+@each $boyut in $boyutlar {
+    .b-#{$boyut}{
+        font-size: 10 + $boyut + px ;
+    }
+    
+}
+
+$sözlük:(
+    1:100,
+    2:200,
+    3:300,
+    4:400,
+    5:500,
+);
+
+@each $isim, $boyut in $sözlük {
+    .a-#{$isim}{
+        float:left;
+        width: $boyut + px;
+    }
+    
+}
+
+
+// for döngüsü
+
+@for $i from 1 to 5 {
+    .ömer#{$i}{
+        float: left;
+        width: $i * 100 + px;
+    }
+    
+}
+
+
+
+// while döngüsü
+
+$sayi : 1 ;
+
+@while ($sayi <= 5) {
+    .hakan-#{$sayi} {
+        float:left;
+        width: $sayi1 * 100 +px;
+    
+    }
+    $sayi = $sayi + 1
+    
+}

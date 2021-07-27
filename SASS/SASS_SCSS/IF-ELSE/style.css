@@ -1,0 +1,76 @@
+@charset "UTF-8";
+.kutu {
+  float: left;
+  padding: 10px 15px;
+  background-color: green;
+}
+
+.b-1 {
+  font-size: 11px;
+}
+
+.b-2 {
+  font-size: 12px;
+}
+
+.b-3 {
+  font-size: 13px;
+}
+
+.b-4 {
+  font-size: 14px;
+}
+
+.b-5 {
+  font-size: 15px;
+}
+
+.b-6 {
+  font-size: 16px;
+}
+
+.a-1 {
+  float: left;
+  width: 100px;
+}
+
+.a-2 {
+  float: left;
+  width: 200px;
+}
+
+.a-3 {
+  float: left;
+  width: 300px;
+}
+
+.a-4 {
+  float: left;
+  width: 400px;
+}
+
+.a-5 {
+  float: left;
+  width: 500px;
+}
+
+.ömer1 {
+  float: left;
+  width: 100;
+}
+
+.ömer2 {
+  float: left;
+  width: 200;
+}
+
+.ömer3 {
+  float: left;
+  width: 300;
+}
+
+.ömer4 {
+  float: left;
+  width: 400;
+}
+/*# sourceMappingURL=style.css.map */
