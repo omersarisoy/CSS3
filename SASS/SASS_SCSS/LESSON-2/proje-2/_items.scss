@@ -1,0 +1,47 @@
+.item {
+    text-align: center;
+    font-size: 25px;
+    margin: 10px;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 15px;
+    color: #E5E7F0;
+  }
+
+  @for $i from 1 to 5 {
+    .item-#{$i}{
+    @extend.item;
+    background-color: #A7A413;
+    border: 3px solid #EEF109;
+    }
+  }
+  // .item-1 {
+   
+  // }
+  // .item-2 {
+  //   margin: 10px;
+  //   padding: 5px;
+  //   border: 3px solid #EEF109;
+  //   font-size: 20px;
+  //   background-color: #A7A413;
+  //   border-radius: 15px;
+  //   color: #E5E7F0;
+  // }
+  // .item-3 {
+  //   margin: 10px;
+  //   padding: 5px;
+  //   border: 3px solid #EEF109;
+  //   font-size: 20px;
+  //   background-color: #A7A413;
+  //   border-radius: 15px;
+  //   color: #E5E7F0;
+  // }
+  // .item-4 {
+  //   margin: 10px;
+  //   padding: 5px;
+  //   border: 3px solid #EEF109;
+  //   font-size: 20px;
+  //   background-color: #A7A413;
+  //   border-radius: 15px;
+  //   color: #E5E7F0;
+  // }
