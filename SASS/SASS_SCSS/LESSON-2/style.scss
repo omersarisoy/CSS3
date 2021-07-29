@@ -1,0 +1,103 @@
+/*
+@mixin icon ($boyut, $yuvarlak) {
+width: $boyut;
+height: $boyut;
+@if ($yuvarlak) {
+    border-radius: $boyut / 2
+}
+    
+}
+
+.container{
+    float: left;
+    @include icon(40px, true);
+    background-color: tomato;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+*/
+
+
+/*
+@mixin kenarlık($yon, $tur, $renk) {
+    @if ($yon == t) {
+        border-top: 3px $tur $renk;
+        
+    }
+    @else if ($yon == r) {
+        border-right: 3px $tur $renk;
+        
+    }
+    @else if ($yon == b) {
+        border-bottom: 3px $tur $renk;
+        
+    }
+    @else if ($yon == l) {
+        border-left: 3px $tur $renk;
+        
+    }
+    @else {
+        border: 3px $tur $renk;
+        
+    }
+ 
+}
+
+.container{
+    width: 300 px;
+    height: 100px;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @include kenarlık(t, solid ,red )    
+}
+*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: orange;
+}
+
+.items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    border: 3px solid red;
+}
+
+$color1:rgb(73, 192, 123);
+$color2:rgb(153, 153, 199);
+$color3:rgb(67, 107, 84);
+$color4:rgb(21, 30, 83);
+$color5:rgb(71, 71, 63);
+
+$array : $color1, $color2, $color3, $color4, $color5; 
+
+
+@for $i from 1 through 5 {
+    .item-#{$i}{
+        width: 50px * $i;
+        height: 50px;
+        background-color: nth($array, $i );
+        margin-bottom: 5px;
+        text-align: center;
+    }
+    
+}  
+
+$array2 : 1,2,3,4,5 ;
+
+@each $i in $array2 {
+    .item-#{$i}{
+        font-size: 10px * $i;
+    }
+    
+}
