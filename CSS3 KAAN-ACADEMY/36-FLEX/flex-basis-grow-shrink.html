@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .container-1{
+            height: 500px;
+            border: 1px solid black;
+            display: flex;
+            flex-flow: row wrap;
+        }
+
+
+        .container-1 div{
+            border: 1px solid red;
+            padding: 5px;
+            flex-basis: 10%;
+       
+        }
+
+        .box-1{
+        flex-grow: 5;
+        }
+        .box-2{
+            flex-grow: 2;
+        }   
+        .box-3{
+        flex-shrink: 0;
+        }
+        .box-4{
+        flex-shrink: 0;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container-1">
+        <div class="box-1">
+            <h4>Birinci Kutu</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, eius?</p>
+        </div>
+        <div class="box-2">
+            <h4>İkinci Kutu</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, eius?</p>
+        </div>
+        <div class="box-3">
+            <h4>Üçüncü Kutu</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, eius?</p>
+        </div>
+        <div class="box-4">
+            <h4>Dördüncü Kutu</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, eius?</p>
+        </div>
+     
+     
+    </div>
+    
+</body>
+</html>
