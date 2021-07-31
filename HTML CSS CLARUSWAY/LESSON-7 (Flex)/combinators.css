@@ -1,0 +1,30 @@
+/*Combinators
+element selector p {}
+id selector #
+class selector .
+universal *
+grouping selector p,h1,h2 {}
+eleement.class p.hello {}
+*/
+
+/*descendant slctr*/
+/* div p {
+    background-color: royalblue;
+    color: white;
+} */
+
+/*Child Slctr*/
+/* div > p {
+    background-color: yellowgreen;
+} */
+
+/*Adj sibling slc => divden sonra gelen ilk p yi alır*/
+div + p {
+    background-color: tomato;
+}
+
+
+/*general sibling slc => divden sonra gelen tüm p leri alır*/
+div ~ p {
+    background-color: turquoise;
+}
