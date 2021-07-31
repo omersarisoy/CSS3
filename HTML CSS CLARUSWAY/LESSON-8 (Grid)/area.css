@@ -1,0 +1,30 @@
+#container{
+    display:grid;
+    grid-template-columns: 100px 300px 100px 100px;
+    grid-template-rows: 100px 500px 100px;
+    grid-template-areas: 
+    "header header header header"
+    "sidebar main  main section"
+    "footer footer footer contact";
+    /* grid-auto-flow: column; */
+}
+.content{
+    background-color: indianred;
+    border:1px solid black;
+}
+.content1{
+    grid-area:header;
+}
+.content7{
+grid-area:sidebar;
+}
+
+.content2{
+    grid-area:main;
+}
+.content3{
+    grid-area:section;
+}
+.content4{
+    grid-area:footer;
+}
